@@ -2,7 +2,7 @@
   {
     "name": "Praject 1",
     "image": "https://c.tenor.com/Ofev06wBI64AAAAM/tumbleweed-highway.gif",
-		"description": "Front end and a little bit of devops",
+    "description": "Front end and a little bit of devops",
     "company": {
       "name": "Company 1",
       "url": "http://google.com"
@@ -11,7 +11,7 @@
   {
     "name": "Preject 2",
     "image": "https://www.icegif.com/wp-content/uploads/icegif-2786.gif",
-		"description": "Back end",
+    "description": "Back end",
     "company": {
       "name": "Company 2",
       "url": "http://facebook.com"
@@ -20,7 +20,7 @@
   {
     "name": "Priject 3",
     "image": "https://thumbs.gfycat.com/EnormousBouncyEuropeanpolecat-size_restricted.gif",
-		"description": "Full stack",
+    "description": "Full stack",
     "company": {
       "name": "Company 3",
       "url": "http://telefonica.com"
@@ -29,7 +29,7 @@
   {
     "name": "Project 4",
     "image": "https://c.tenor.com/gWPdubJeM-YAAAAC/tumble-weed.gif",
-		"description": "Front end and back end",
+    "description": "Front end and back end",
     "company": {
       "name": "Company 4",
       "url": "http://twitter.com"

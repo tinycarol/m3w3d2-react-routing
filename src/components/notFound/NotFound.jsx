@@ -28,15 +28,15 @@ import React from "react";
   }
 } */
 export default class NotFound extends React.Component {
-	timeout = 0;
+  timeout = 0;
 
   componentDidMount = () => {
     this.timeout = setTimeout(() => this.props.history.replace("/"), 3000);
-	};
-	
-	componentWillUnmount() {
-		clearTimeout(this.timeout);
-	}
+  };
+
+  componentWillUnmount() {
+    clearTimeout(this.timeout);
+  }
 
   render() {
     return (
