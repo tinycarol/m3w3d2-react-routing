@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Logo from "../logo/Logo";
 import "./Navbar.css";
 
@@ -8,24 +9,42 @@ export default function Navbar() {
         <Logo />
         <ul>
           <li>
-            <a className="Navbar__content__link" href="/">
+            <NavLink
+              to="/"
+              className="Navbar__content__link"
+              activeClassName="Navbar__content__link--active"
+              exact
+            >
               🏠 <span className="Navbar__content__link__name">Home</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className="Navbar__content__link" href="/about">
+            <NavLink
+              to="/about"
+              className="Navbar__content__link"
+              activeClassName="Navbar__content__link--active"
+            >
               👩 <span className="Navbar__content__link__name">About</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className="Navbar__content__link" href="/projects">
+            <NavLink
+              to="/projects"
+              className="Navbar__content__link"
+              activeClassName="Navbar__content__link--active"
+              exact
+            >
               🛠️ <span className="Navbar__content__link__name">Projects</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className="Navbar__content__link" href="/contact">
+            <NavLink
+              to="/contact"
+              className="Navbar__content__link"
+              activeClassName="Navbar__content__link--active"
+            >
               ✉️ <span className="Navbar__content__link__name">Contact</span>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

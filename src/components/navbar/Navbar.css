@@ -23,7 +23,7 @@
   list-style: none;
 }
 
-.Navbar__active {
+.Navbar__content__link--active {
   text-decoration: underline;
 }
 
