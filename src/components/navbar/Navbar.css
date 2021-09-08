@@ -11,7 +11,7 @@
   justify-content: space-between;
 }
 
-.Navbar ul {
+.Navbar__content>ul {
   display: flex;
   list-style: none;
   align-items: center;
@@ -19,7 +19,7 @@
   flex-grow: 1;
 }
 
-.Navbar ul li {
+.Navbar__content>ul>li {
   list-style: none;
 }
 
@@ -35,11 +35,11 @@
 }
 
 @media(max-width: 500px) {
-  .Navbar__link__name {
+  .Navbar__content__link__name {
     display: none;
   }
 
-  .Navbar__link {
+  .Navbar__content__link {
     font-size: 20pt;
   }
 }

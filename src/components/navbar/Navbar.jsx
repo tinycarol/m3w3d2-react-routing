@@ -8,23 +8,23 @@ export default function Navbar() {
         <Logo />
         <ul>
           <li>
-            <a className="Navbar__link" href="/">
-              🏠 <span className="Navbar__link__name">Home</span>
+            <a className="Navbar__content__link" href="/">
+              🏠 <span className="Navbar__content__link__name">Home</span>
             </a>
           </li>
           <li>
-            <a className="Navbar__link" href="/about">
-              👩 <span className="Navbar__link__name">About</span>
+            <a className="Navbar__content__link" href="/about">
+              👩 <span className="Navbar__content__link__name">About</span>
             </a>
           </li>
           <li>
-            <a className="Navbar__link" href="/projects">
-              🛠️ <span className="Navbar__link__name">Projects</span>
+            <a className="Navbar__content__link" href="/projects">
+              🛠️ <span className="Navbar__content__link__name">Projects</span>
             </a>
           </li>
           <li>
-            <a className="Navbar__link" href="/contact">
-              ✉️ <span className="Navbar__link__name">Contact</span>
+            <a className="Navbar__content__link" href="/contact">
+              ✉️ <span className="Navbar__content__link__name">Contact</span>
             </a>
           </li>
         </ul>
